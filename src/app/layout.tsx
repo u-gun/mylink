@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "정유건 (Ugeon Jung) | MyLink",
-  description: "청운대학교 컴퓨터공학과 정유건 프로필",
+  title: "정유건 (Ugeon Jung) | Developer Profile",
+  description: "아이디어를 코드로 실현하는 소프트웨어 개발자 정유건의 프로필",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

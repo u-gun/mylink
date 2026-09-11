@@ -9,7 +9,11 @@ export default function Home() {
           </div>
           <h1 className="mt-4 text-2xl font-bold tracking-tight">정유건</h1>
           <p className="text-sm font-medium tracking-wide text-zinc-500 uppercase dark:text-zinc-400">
-            Ugeon-Jung
+            Junior Software Engineer
+          </p>
+          <p className="mt-3 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">
+            아이디어를 코드로 실현하고 사용자 가치를 만들어가는 개발자 정유건입니다.
+            새로운 기술을 탐구하고 실용적인 웹 서비스를 만드는 데 열정을 갖고 있습니다.
           </p>
         </div>
 
@@ -34,15 +38,31 @@ export default function Home() {
 
           <div className="flex items-center justify-between rounded-xl bg-zinc-50 px-4 py-3 dark:bg-zinc-800/60">
             <span className="text-xs font-semibold tracking-wider text-zinc-500 uppercase dark:text-zinc-400">
-              생년월일
+              관심 분야
             </span>
             <div className="text-right">
               <p className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-                2003. 06. 01
+                Web & Software Development
               </p>
               <p className="text-xs text-zinc-500 dark:text-zinc-400">
-                20030601
+                Frontend / Full-stack
               </p>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between rounded-xl bg-zinc-50 px-4 py-3 dark:bg-zinc-800/60">
+            <span className="text-xs font-semibold tracking-wider text-zinc-500 uppercase dark:text-zinc-400">
+              GitHub
+            </span>
+            <div className="text-right">
+              <a
+                href="https://github.com/u-gun"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-semibold text-blue-600 hover:underline dark:text-blue-400"
+              >
+                github.com/u-gun
+              </a>
             </div>
           </div>
         </div>
@@ -50,13 +70,19 @@ export default function Home() {
         {/* Tags */}
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           <span className="rounded-md border border-zinc-200 px-2.5 py-1 text-xs font-medium text-zinc-600 dark:border-zinc-700 dark:text-zinc-300">
-            #청운대학교
+            #Next.js
           </span>
           <span className="rounded-md border border-zinc-200 px-2.5 py-1 text-xs font-medium text-zinc-600 dark:border-zinc-700 dark:text-zinc-300">
-            #컴퓨터공학과
+            #TypeScript
           </span>
           <span className="rounded-md border border-zinc-200 px-2.5 py-1 text-xs font-medium text-zinc-600 dark:border-zinc-700 dark:text-zinc-300">
-            #MyLink
+            #React
+          </span>
+          <span className="rounded-md border border-zinc-200 px-2.5 py-1 text-xs font-medium text-zinc-600 dark:border-zinc-700 dark:text-zinc-300">
+            #WebDeveloper
+          </span>
+          <span className="rounded-md border border-zinc-200 px-2.5 py-1 text-xs font-medium text-zinc-600 dark:border-zinc-700 dark:text-zinc-300">
+            #청운대컴공
           </span>
         </div>
       </main>
