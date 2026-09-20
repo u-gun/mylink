@@ -13,17 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "정유건 (Ugeon Jung) | Developer Profile",
-  description: "아이디어를 코드로 실현하는 소프트웨어 개발자 정유건의 프로필",
+  title: "정유건 (Ugeon Jung) | Cyber Business Card",
+  description: "Software Engineer Digital ID & Cyber Business Card",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="ko"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-[100dvh] overflow-hidden antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="h-[100dvh] w-full overflow-hidden bg-[#050505] text-zinc-100 flex flex-col">
+        {children}
+      </body>
     </html>
   );
 }
