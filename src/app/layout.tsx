@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "정유건 (Ugeon Jung) | Cyber Business Card",
-  description: "Software Engineer Digital ID & Cyber Business Card",
+  title: "정유건 (Ugeon Jung) | mylink - 올인원 링크 허브",
+  description: "아이디어를 견고한 제품으로 실현하는 엔지니어 정유건의 공식 링크트리 허브입니다.",
 };
 
 export default function RootLayout({
@@ -25,9 +25,9 @@ export default function RootLayout({
   return (
     <html
       lang="ko"
-      className={`${geistSans.variable} ${geistMono.variable} h-[100dvh] overflow-hidden antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased`}
     >
-      <body className="h-[100dvh] w-full overflow-hidden bg-[#050505] text-zinc-100 flex flex-col">
+      <body className="min-h-screen w-full flex flex-col font-sans">
         {children}
       </body>
     </html>
